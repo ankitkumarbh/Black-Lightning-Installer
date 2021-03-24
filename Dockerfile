@@ -66,7 +66,7 @@ RUN git clone https://ankitkumarbh:250298gh@github.com/ankitkumarbh/Black-Lightn
 # RUN wget https://raw.githubusercontent.com/KeinShin/Black-Lightning/master/requirements.txt
 RUN mkdir /root/userbot/bin/
 WORKDIR /root/userbot/
-RUN chmod +x /usr/local/bin/*
+# RUN chmod +x /usr/local/bin/*
 RUN pip3 install -r requirements.txt
 #CMD ["bash","boot_start.sh"]
 CMD ["python3","amaansh1vamrun.py"]
