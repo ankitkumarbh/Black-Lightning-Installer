@@ -69,4 +69,4 @@ WORKDIR /root/userbot/
 # RUN chmod +x /usr/local/bin/*
 RUN pip3 install -r requirements.txt
 #CMD ["bash","boot_start.sh"]
-CMD ["python3","amaansh1vamrun.py"]
+CMD ["bash","start"]
